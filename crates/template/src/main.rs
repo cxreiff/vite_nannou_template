@@ -1,9 +1,14 @@
-mod sketch;
 use async_std::task::block_on;
-use sketch::{run_app, Model};
+
+mod app;
+use app::run_app;
+mod sketch;
+use sketch::Model;
+
 fn main() {
-	let model = Model {};
-	block_on(async {
-		run_app(model).await;
-	});
+    let model = Model {};
+
+    block_on(async {
+        run_app(model).await;
+    });
 }
