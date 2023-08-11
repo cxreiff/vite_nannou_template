@@ -1,7 +1,7 @@
 [package]
 name = "nannou_2"
 version = "0.1.0"
-authors = ["cxreiff <dev@cooperreiff.com>"]
+authors = ["cxreiff <cooper@cxreiff.com>"]
 edition = "2018"
 resolver = "2"
 
